@@ -1,7 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { DatasetReport } from "./components/DatasetReport";
-import { Button } from "./components/ui/button";
-import { TablerBrandGithubFilled } from "./components/icons/github";
 
 function App() {
 	return (
@@ -12,27 +10,17 @@ function App() {
 			</h1>
 			<br />
 
-			<div className="grid grid-cols-2 gap-8">
-				<div>
-					<h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-						Members
-					</h2>
-					<ul className="mt-4">
-						<li>Mudit Somani - 2022A7PS0149H</li>
-						<li>V S Saitej Samudrala - 2022A7PS0241H</li>
-						<li>Praharsh Vitta - 2022A7PS0015H</li>
-						<li>Varun Reddy Padala - 2022A7PS0010H</li>
-						<li>Eshaan Sudan - 2022A7PS0075H</li>
-					</ul>
-				</div>
-				<div className="flex justify-center items-center">
-					<Button asChild>
-						<a href="https://github.com/TheComputerM/daa-1">
-							<TablerBrandGithubFilled />
-							GitHub Repository
-						</a>
-					</Button>
-				</div>
+			<div>
+				<h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+					Members
+				</h2>
+				<ul className="mt-4">
+					<li>Mudit Somani - 2022A7PS0149H</li>
+					<li>V S Saitej Samudrala - 2022A7PS0241H</li>
+					<li>Praharsh Vitta - 2022A7PS0015H</li>
+					<li>Varun Reddy Padala - 2022A7PS0010H</li>
+					<li>Eshaan Sudan - 2022A7PS0075H</li>
+				</ul>
 			</div>
 
 			<br />
